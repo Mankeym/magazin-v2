@@ -35,7 +35,6 @@ export default {
             '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
             '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
         !!pattern.test(this.input.value) ? this.input.length > 0 ? error = 1 : error = 0  : error = 0
-        console.log(10)
       } else {
         if(this.input.length > 0) {
           error = 1

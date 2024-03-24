@@ -39,8 +39,6 @@
           :textArea="false"
       />
       <button class="add-form__button-submit" :disabled="!dataProd.disabledStatus">Добавить товар</button>
-      {{dataProd.disabledStatus}}
-      {{dataProd.errors}}
     </form>
   </div>
 </template>
